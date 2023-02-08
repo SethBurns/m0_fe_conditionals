@@ -59,21 +59,28 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// This code is using the conditional 'less than' and is asking if the number of the left of the '<' 
+// symbol is less than the number on the right. This will log the boolean result: true, as 4 is less than 9.
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// The first line of this code is establishing a variable called books, and associating the number 3 with that variable.
+// If we were to `console.log(books)`, we would get the number 3. The second line of code is asking if 4 is less than books.
+// Since books is currently 3, this will log the boolean result: false, since 4 is not less than 3.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// The first two lines of code are establishing the variables 'friends' and 'siblings' as numbers 6 and 2 respectively.
+// The second line of code is asking if friends is greater than siblings. Since 6 is greater than 2, the console will log the 
+// boolean result: true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// The first two lines of code here are establishing the variables 'attendees' and 'meals' as numbers 9 and 8 respectively.
+// The final line of code is asking if attendees is not strictly equal to meals. Since 9 does not equal 8, this will result
+// in the boolean: true.
 
 
 // #-------------------
@@ -96,15 +103,18 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
+console.log("lovesToPlay & is a puppy?", lovesToPlay && age <= 1)
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: It evaluated to TRUE, because I didn't add an unestablished variable like `isAPuppy`. I interpreted the question as is
+//equal to or less than 1. I'm not sure if that's what we were going for here, but it made the most sense to me to not get an
+// error in the console.
