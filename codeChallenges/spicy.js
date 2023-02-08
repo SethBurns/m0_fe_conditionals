@@ -15,3 +15,5 @@ if (((number % 3) === 0) && ((number % 5) === 0)) {
 }
 
 //I think there's a more efficient way to write this... but it acheives the desired result.
+
+console.log(number % 3)
