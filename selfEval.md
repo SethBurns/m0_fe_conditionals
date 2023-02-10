@@ -2,7 +2,7 @@
 
 1. How confident do you feel in your understanding and fluency with the comparison operators?
 
--I feel good about my understanding of comparison operators. This part of the work seemed pretty straight forward to me.
+- I feel good about my understanding of comparison operators. This part of the work seemed pretty straight forward to me.
 
 3. How confident do you feel in your understanding and fluency with the logical operators?
 
